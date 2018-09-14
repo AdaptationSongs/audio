@@ -11,3 +11,4 @@ This software is designed to run on a Hadoop cluster containing the raw audio da
 * [seewave](http://rug.mnhn.fr/seewave/) - lower level time wave analysis, creates spectrograms
 * [Rraven](https://cran.r-project.org/web/packages/Rraven/index.html) - tool to exchange data with Cornell's [Raven](http://www.birds.cornell.edu/brp/raven/RavenOverview.html) software
 * [sparklyr](http://spark.rstudio.com/) - Spark interface to run R code in parallel on a Hadoop cluster, interface to [MLlib](https://spark.apache.org/mllib/) scalable machine learning library
+* [guano-r](https://github.com/riggsd/guano-r) - reads metadata in the Grand Unified Acoustic Notation Ontology format
