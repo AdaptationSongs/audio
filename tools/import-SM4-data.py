@@ -47,7 +47,7 @@ s = session()
 sn = sys.argv[2].split('_')[0]
 
 # Read the txt file as CSV
-with open(sys.argv[2], 'rb') as csvfile:
+with open(sys.argv[2], 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     try:
         t = time()
